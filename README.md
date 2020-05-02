@@ -13,5 +13,5 @@ A web app to find your favorite songs lyrics.
 #### Getting Started
 
 - Save `.env.example` file into `.env`.
-- Register a new account in [musixmatch](https://developer.musixmatch.com/) and add your API key in `env`.
+- Register a new account in [musixmatch](https://developer.musixmatch.com/) and add your API key in `.env` file.
 - Run `npm install && npm start` to run the app successfully.
