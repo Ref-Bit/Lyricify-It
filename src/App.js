@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import { Index, NavBar, Lyrics } from './components'
+import { Index, Footer, NavBar, Lyrics } from './components'
 import { GlobalProvider } from './context/Global'
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
               <Route exact path="/lyrics/track/:id" component={Lyrics}/>
             </Switch>
           </div>
+          <Footer />
         </React.Fragment>
       </Router>
     </GlobalProvider>

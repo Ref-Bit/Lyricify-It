@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default ({track}) => {
   return (
     <React.Fragment>
-      <div className="rounded shadow hover:shadow-lg hover:bg-gray-300 transition duration-300">
+      <div className="border hover:shadow-lg hover:bg-gray-100 transition duration-300">
         <div className="px-6 py-4">
           <h4 className="font-semibold text-xl mb-2"><i className="fas fa-music"></i> {track.track_name}</h4>
           <p className="text-gray-700 text-base"><i className="fas fa-microphone-alt"></i> {track.artist_name}</p>

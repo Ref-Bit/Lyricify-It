@@ -1,5 +1,5 @@
 ## Lyricify It 🎶📜
-A web app to find your favorite songs lyrics
+A web app to find your favorite songs lyrics.
 
 ***
 

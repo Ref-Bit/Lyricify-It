@@ -28,11 +28,11 @@ export default props => {
   } else {
     return (
       <React.Fragment>
-        <div className="flex flex-col my-5">
+        <div className="flex justify-center flex-col my-5">
           <div className="w-1/2 mb-5">
-            <Link to="/" className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow transition duration-300"><i className="fas fa-chevron-left"></i> Go Back</Link>
+            <Link to="/" className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 hover:shadow transition duration-300"><i className="fas fa-chevron-left"></i> Go Back</Link>
           </div>
-          <div className="rounded w-1/2 shadow hover:shadow-lg hover:bg-gray-300 transition duration-300">
+          <div className="w-1/2 border hover:shadow-lg hover:bg-gray-100 transition duration-300">
             <div className="px-6 py-4">
               <h4 className="font-semibold text-xl mb-2"><i className="fas fa-music"></i> {track.track.track_name} {track.track.explicit === 1 ? '[Explicit]' : ''}</h4>
               <p className="text-gray-700 text-base"><i className="fas fa-microphone-alt"></i> {track.track.artist_name}</p>

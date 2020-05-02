@@ -14,7 +14,7 @@ html, body{
   height: 125px;
   box-sizing: border-box;
   border-radius: 50%;
-  border-top: 10px solid #e74c3c;
+  border-top: 10px solid #dadada;
   position: relative;
   animation: a1 2s linear infinite;
 }
@@ -29,12 +29,12 @@ html, body{
   border-radius: 50%;
 }
 .loading::before{
-  border-top: 10px solid #e67e22;
+  border-top: 10px solid #38b2ac;
   transform: rotate(120deg);
   
 }
 .loading::after{
-  border-top: 10px solid #3498db;
+  border-top: 10px solid #667eea;
   transform: rotate(240deg);
 }
 .loading span{
